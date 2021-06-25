@@ -2,6 +2,15 @@ provider "aws" {
   region = "eu-west-1"
 }
 
+terraform {
+  required_providers {
+    aws = {
+      source  = "hashicorp/aws"
+      version = "3.45.0_x5"
+    }
+  }
+}
+
 
 module "cloudfront_s3_website_without_domain" {
   source             = "../"
