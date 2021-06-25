@@ -5,7 +5,7 @@ provider "aws" {
 
 module "cloudfront_s3_website_without_domain" {
   source             = "../"
-  domain_name        = "test-application-1232" // Any random identifier for s3 bucket name
+  domain_name        = "ape-application" // Any random identifier for s3 bucket name
   use_default_domain = true
   upload_sample_file = true
   tags               = var.tags
