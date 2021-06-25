@@ -18,10 +18,6 @@ variable "tags" {
   }
 }
 
-output "mod1_domain" {
-  value = module.cloudfront_s3_website_with_domain.website_address
-}
-
 output "mod2_domain" {
   value = module.cloudfront_s3_website_without_domain.cloudfront_domain_name
 }
