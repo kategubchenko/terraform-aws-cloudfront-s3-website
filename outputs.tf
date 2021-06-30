@@ -21,3 +21,7 @@ output "s3_bucket_arn" {
 output "s3_bucket_name" {
   value = aws_s3_bucket.s3_bucket.id
 }
+
+output "s3_bucket_name2" {
+  value = aws_s3_bucket.s3_bucket.id
+}
