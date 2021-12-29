@@ -23,7 +23,7 @@ module "cloudfront_s3_website_without_domain" {
 
 variable "tags" {
   default = {
-    owner       = "a.penchuk@scalr.com"
+    owner       = "k.gubchenko@scalr.com"
     application = "sample"
   }
 }
